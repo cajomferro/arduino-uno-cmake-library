@@ -1,0 +1,8 @@
+get_filename_component(PekoeVMArduino_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+include(CMakeFindDependencyMacro)
+
+if(NOT TARGET PekoeVM::PekoeVMArduino)
+    include("${PekoeVMArduino_CMAKE_DIR}/pekoevmarduino-install.cmake")
+endif()
+
+set(PekoeVMArduino_LIBRARIES PekoeVM::PekoeVMArduino)
