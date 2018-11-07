@@ -1,6 +1,6 @@
-# Arduino Uno library using effective CMake guidelines
+# Arduino Uno library based on Effective Modern CMake guidelines
 
-This is a sample project of how you can build a regular C/C++ library of the Arduino Uno by using CMake and import it from an executable. There other projects that already use Arduino with CMake but they rather do not follow the Effective Modern CMake guidelines or are too much complex (for my needs) and still depend on an Arduino installation on the local filesystem.
+This is a sample project of how you can build a regular C/C++ library of the Arduino Uno by using CMake and import it from an executable. There are other projects that already use Arduino with CMake but they rather do not follow the Effective Modern CMake guidelines or are too much complex (for my needs) and still depend on an Arduino installation on the local filesystem.
 
 This sample uses Arduino 1.8.7 version library source files. All rights are reserved to Arduino. This is just a demonstration of how to use them as a CMake library.
 
